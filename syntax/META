@@ -1,4 +1,13 @@
 # OASIS_START
+# DO NOT EDIT (digest: 9a8cbdf9e3f98761306774fa8ab66f34)
+version = "113.00.01"
+description = "Syntax extension for Fieldslib"
+requires = "camlp4 type_conv fieldslib"
+archive(syntax, preprocessor) = "pa_fields_conv.cma"
+archive(syntax, toploop) = "pa_fields_conv.cma"
+archive(syntax, preprocessor, native) = "pa_fields_conv.cmxa"
+archive(syntax, preprocessor, native, plugin) = "pa_fields_conv.cmxs"
+exists_if = "pa_fields_conv.cma"
 # OASIS_STOP
 package "syntax" (
   description = "Alias for pa_fields_conv"
