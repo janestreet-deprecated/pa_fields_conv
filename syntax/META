@@ -1,0 +1,7 @@
+# OASIS_START
+# OASIS_STOP
+package "syntax" (
+  description = "Alias for pa_fields_conv"
+  requires    = "pa_fields_conv"
+  archive     = "-ignore dumy"
+)
