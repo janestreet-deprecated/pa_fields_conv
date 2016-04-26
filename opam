@@ -1,6 +1,5 @@
 opam-version: "1.2"
 name: "pa_fields_conv"
-version: "113.00.01"
 maintainer: "opensource@janestreet.com"
 authors: "Jane Street Group, LLC <opensource@janestreet.com>"
 homepage: "https://github.com/janestreet/pa_fields_conv"
